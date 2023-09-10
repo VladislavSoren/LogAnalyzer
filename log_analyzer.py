@@ -2,19 +2,19 @@
 # -*- coding: utf-8 -*-
 
 
+import argparse
 import bz2
 import datetime
+import gzip
 import json
 import logging
 import os
-import gzip
+import re
 import sys
 import time
 from functools import wraps
 from pathlib import Path
 from string import Template
-import re
-import argparse
 
 from line_format_config import LINE_LOG_FORMAT
 
