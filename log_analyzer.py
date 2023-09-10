@@ -317,7 +317,3 @@ if __name__ == "__main__":
         main(config)
     except Exception as e:
         logging.exception(f"Неожиданная ошибка {e}")
-
-
-if 1:
-    print("!")
