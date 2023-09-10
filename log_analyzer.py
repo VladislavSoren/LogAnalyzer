@@ -64,7 +64,7 @@ if log_filename:
     os.makedirs(os.path.dirname(log_filename), exist_ok=True)
 logging.basicConfig(
     filename=log_filename,
-    # if filename == None -> logs in stdout
+    # if filename == None -> log in stdout
     filemode="w",
     format="[%(asctime)s] %(levelname).1s %(message)s",
     datefmt="%Y.%m.%d%H:%M:%S",
