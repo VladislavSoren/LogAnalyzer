@@ -27,11 +27,12 @@
 не использовались (`requirements.txt` НЕТ)
 
 - Запуск в режиме продакшн: 
-1. `cd <Абсолютный путь к директории log_analyzer>`
+1. `cd <Абсолютный путь к директории Otus_ProfPython>`
 2.  `python log_analyzer.py`
 
 - Запуск тестов: 
 1. `cd <Абсолютный путь к директории Otus_ProfPython>`
 2. `python -m unittest`
 
+### Реaлизован pre-commit
 ![img.png](static%2Freadme%2Fimg.png)

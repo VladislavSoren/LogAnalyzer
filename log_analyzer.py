@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 
 
-
+import argparse
+import bz2
+import datetime
+import gzip
 import json
 import logging
 import os
@@ -19,13 +22,6 @@ system_paths = sys.path
 CWD = os.getcwd()
 print(system_paths)
 print(CWD)
-
-
-
-import argparse
-import bz2
-import datetime
-import gzip
 
 
 # Парсим данные командной строки
